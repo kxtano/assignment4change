@@ -1,0 +1,60 @@
+.container
+	{width: 95%;
+	margin: 0 auto;
+	background-color: blue;}
+
+.title 
+	{text-align: center;
+	font-size: 35px;
+	padding: 30px;}
+
+.subtitle
+	{text-align: center;
+	font-size: 30px;
+	background-color: deepskyblue;
+	padding: 15px;}
+
+.flex-container 
+	{display: flex;
+	justify-content: space-between;
+	padding: 20px;}
+
+.side-links
+	{width: 20%;
+	background-color: violet;
+	padding: 10px;}
+
+.work-experience
+	{width: 30%;
+	background-color: powderblue;
+	padding: 10px;}
+
+.skills
+	{width: 45%;
+	background-color: powderblue;
+	padding: 10px;}
+
+.email-link
+	{text-align: center;
+	padding: 20px;}
+
+/* Media query for screens 575px wide or less */
+@media only screen and (max-width: 575px) {
+    .flex-container
+	
+	{display: block;
+	text-align: center;}
+
+    .side-links, .work-experience, .skills
+	{float: none;
+	width: 90%;
+	 margin: auto;
+	margin-bottom: 10px; /* Adding space between divs */}
+
+    .side-links
+	{height: auto; /* Adjust the height of the links div */}
+
+
+
+
+
